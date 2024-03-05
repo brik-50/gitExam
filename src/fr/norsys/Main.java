@@ -13,7 +13,8 @@ public class Main {
      * Methode qui retourne le modulo de deux nombres
      */
     private static int getModulo(int agr1, int agr2) {
-        return agr1 / agr2;
+        if(agr2 == 0) System.out.println("division par zero");
+        return (agr1 % agr2);
     }
 
 }
