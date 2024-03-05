@@ -4,16 +4,21 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int agr1 = 22;
-        int agr2 = 7;
-        System.out.println(getModulo(agr1, agr2));
+        int arg1 = 22;
+        int arg2 = 7;
+        System.out.println(getModulo(arg1, arg2));
+        System.out.println(getMultiply(arg1, arg2));
     }
 
     /**
      * Methode qui retourne le modulo de deux nombres
      */
-    private static int getModulo(int agr1, int agr2) {
-        return agr1 % agr2;
+    private static int getModulo(int arg1, int arg2) {
+        return arg1 % arg2;
+    }
+
+    private static int getMultiply(int arg1, int arg2) {
+        return arg1 * arg2;
     }
 
 }
