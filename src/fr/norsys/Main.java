@@ -15,5 +15,11 @@ public class Main {
     private static int getModulo(int agr1, int agr2) {
         return agr1 % agr2;
     }
+    /**
+    * Methode qui retourne le multiply de deux nombres
+    */
+    private static int getMutiply(int agr1, int agr2) {
+        return agr1 * agr2;
+    }
 
 }
