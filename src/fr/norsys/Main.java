@@ -17,4 +17,8 @@ public class Main {
         return (agr1 % agr2);
     }
 
+    private static int getMultiply(int arg1, int agr2){
+        return (arg1*agr2);
+    }
+
 }
