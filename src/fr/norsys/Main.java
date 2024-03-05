@@ -15,5 +15,8 @@ public class Main {
     private static int getModulo(int agr1, int agr2) {
         return agr1 / agr2;
     }
-
+    
+    private static int multiplt(int a, int b) {
+        return a * b;
+    }
 }
